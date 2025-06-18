@@ -1,13 +1,13 @@
 
 import './App.css'
+import CategoryGrid from './Category/Category'
+import Navbar from './Navbar/Navbar'
 
 function App() {
-
-
   return (
     <>
-    <div className='text-2xl font-bold '>hello</div>
-      
+    <Navbar/>
+    <CategoryGrid/>
     </>
   )
 }
