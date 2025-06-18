@@ -25,7 +25,7 @@ export default function Navbar({ onSearch }) {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 ">
-            <img src={lumia} alt="" srcset="" />
+            <img src={lumia} alt=""  />
           </div>
 
           {/* Desktop Search */}
