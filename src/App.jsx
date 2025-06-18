@@ -1,16 +1,13 @@
 
 import './App.css'
-import Carosel from './carosel/carosel'
-import { Marquee } from './Marquee/Marquee'
+import CategoryGrid from './Category/Category'
+import Navbar from './Navbar/Navbar'
+
 function App() {
-
-
   return (
     <>
-    <div className='text-2xl font-bold '>hello</div>
-    <Marquee/>
-<Carosel/>
-      
+    <Navbar/>
+    <CategoryGrid/>
     </>
   )
 }
