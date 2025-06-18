@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import lumia from '../assets/logo/image.png'; // Adjust the path as necessary
+import lumia from '../assets/logo/image.png'; 
 import {
   Menu,
   X,
@@ -23,12 +23,11 @@ export default function Navbar({ onSearch }) {
     <nav className="bg-gray-500 text-gray-200 border-b-amber-50 ">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+     
           <div className="flex-shrink-0 ">
             <img src={lumia} alt=""  />
           </div>
 
-          {/* Desktop Search */}
           <form onSubmit={handleSearch} className="hidden md:flex flex-1 mx-6">
             <div className="relative w-full">
               <input
@@ -47,7 +46,7 @@ export default function Navbar({ onSearch }) {
             </div>
           </form>
 
-          {/* Desktop Icons */}
+         
           <div className="hidden md:flex items-center space-x-4">
             <MessageSquare size={20} className="hover:text-white cursor-pointer" />
             <User size={20} className="hover:text-white cursor-pointer" />
@@ -55,7 +54,7 @@ export default function Navbar({ onSearch }) {
             <ShoppingCart size={20} className="hover:text-white cursor-pointer" />
           </div>
 
-          {/* Mobile Menu Toggle */}
+      
           <div className="md:hidden">
             <button onClick={() => setMobileOpen(!mobileOpen)}>
               {mobileOpen ? <X size={24} /> : <Menu size={24} />}
@@ -63,7 +62,7 @@ export default function Navbar({ onSearch }) {
           </div>
         </div>
 
-        {/* Mobile Panel */}
+       
         {mobileOpen && (
           <div className="pt-4 pb-2 space-y-4 md:hidden">
             <form onSubmit={handleSearch} className="px-2">

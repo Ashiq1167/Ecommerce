@@ -4,6 +4,7 @@ import Carosel from './carosel/carosel'
 import CategoryGrid from './Category/Category'
 import { MyMarqueeComponent } from './Marquee/Marquee'
 import Navbar from './Navbar/Navbar'
+import MultiCardCarousel from './Product/MultiCardCorousal'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <CategoryGrid/>
     <MyMarqueeComponent/>
     <Carosel/>
+    <MultiCardCarousel/>
     </>
   )
 }
