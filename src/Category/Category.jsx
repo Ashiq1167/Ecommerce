@@ -1,22 +1,22 @@
 import React from 'react';
-import cat1 from '../assets/Steering-Wheel.webp';
-import car2 from '../assets/Mouse-Pads.webp';
-import car3 from '../assets/VR-Boxes.webp';
-import car4 from '../assets/Keyboards.webp';
-import car5 from '../assets/Headsets.webp';
-import car6 from '../assets/Game-Pads.webp';
-import car7 from '../assets/Chairs.webp';
-import car8 from '../assets/Gaming-Mice.webp';
+import cat1 from '../assets/Category/Steering-Wheel.webp'
+import cat2 from '../assets/Category/Mouse-Pads.webp';
+import cat3 from '../assets/Category/VR-Boxes.webp';
+import cat4 from '../assets/Category/Keyboards.webp';
+import cat5 from '../assets/Category/Headsets.webp';
+import cat6 from '../assets/Category/Game-Pads.webp';
+import cat7 from '../assets/Category/Chairs.webp';
+import cat8 from '../assets/Category/Gaming-Mice.webp';  
 
 const categories = [
   { key: 'steering', label: 'Steering Wheels', img: cat1 },
-  { key: 'mousepad', label: 'Mouse Pads', img: car2 },
-  { key: 'vr', label: 'VR Boxes', img: car3 },
-  { key: 'keyboard', label: 'Keyboards', img: car4 },
-  { key: 'headset', label: 'Headsets', img: car5 },
-  { key: 'gamepad', label: 'Game Pads', img: car6 },
-  { key: 'chair', label: 'Chairs', img: car7 },
-  { key: 'mouse', label: 'Gaming Mice', img: car8 },
+  { key: 'mousepad', label: 'Mouse Pads', img: cat2},
+  { key: 'vr', label: 'VR Boxes', img: cat3},
+  { key: 'keyboard', label: 'Keyboards', img: cat4},
+  { key: 'headset', label: 'Headsets', img: cat5},
+  { key: 'gamepad', label: 'Game Pads', img: cat6},
+  { key: 'chair', label: 'Chairs', img: cat7},
+  { key: 'mouse', label: 'Gaming Mice', img: cat8},
 ];
 
 export default function CategoryGrid({ onSelect }) {
