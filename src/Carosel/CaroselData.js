@@ -1,3 +1,4 @@
+
 import car1 from '../assets/carosel/image.png'
 import car2 from '../assets/carosel/slide2_4deaf18b-2051-4b91-b6bf-f44cbfd2a23b.webp'
 import car3 from '../assets/carosel/slide3.webp'
