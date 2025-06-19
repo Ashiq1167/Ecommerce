@@ -8,6 +8,7 @@ import Card from './Card/Card'
 import MultiCardCarousel from './Product/MultiCardCorousal'
 import { MarqueeComponent } from './Marquee1/Marquee1'
 import Footer from './Footer/FooterData'
+import DualFastMarquee from './MultiCardLoop/MultiCardLoop'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <MultiCardCarousel/>
     <Card/>
      <MarqueeComponent/>
+     <DualFastMarquee/>
      <Footer/>
     </>
   )
