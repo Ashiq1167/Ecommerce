@@ -57,7 +57,7 @@ export default function BannerSection() {
             <img
               src={img}
               alt={title}
-              loading="lazy"
+              // loading="lazy"
               className="absolute right-0 bottom-0 h-full object-cover opacity-80"
             />
             <div className="p-6 max-w-xs">
