@@ -6,8 +6,8 @@ import { MyMarqueeComponent } from './Marquee/Marquee'
 import Navbar from './Navbar/Navbar'
 import Card from './Card/Card'
 import MultiCardCarousel from './Product/MultiCardCorousal'
-import Marquee from 'react-fast-marquee'
-import CyberCarousel from './MultiCardLoop/MultiCardLoop'
+import { MarqueeComponent } from './Marquee1/Marquee1'
+import Footer from './Footer/FooterData'
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
     <Carosel/>
     <MultiCardCarousel/>
     <Card/>
-    <Marquee/>
-    <CyberCarousel/>
+     <MarqueeComponent/>
+     <Footer/>
     </>
   )
 }

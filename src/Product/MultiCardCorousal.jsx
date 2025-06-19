@@ -17,8 +17,8 @@ import ProductCard from './Product';
 
 import pro1 from '../assets/jbll.webp';
 import pro2 from '../assets/key.png';
-import pro3 from '../assets/mouse.jpg';
-import pro4 from '../assets/rog.jpg';
+import pro3 from '../assets/mouse.png';
+import pro4 from '../assets/rog.png';
 
 
 const products = [
