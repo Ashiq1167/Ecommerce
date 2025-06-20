@@ -9,6 +9,9 @@ import MultiCardCarousel from './Product/MultiCardCorousal'
 import { MarqueeComponent } from './Marquee1/Marquee1'
 import Footer from './Footer/FooterData'
 import DualFastMarquee from './MultiCardLoop/MultiCardLoop'
+import BestChoiceSection from './ProductChoice/BestChoiceSection'
+
+
 
 function App() {
   return (
@@ -21,6 +24,7 @@ function App() {
     <Card/>
      <MarqueeComponent/>
      <DualFastMarquee/>
+     <BestChoiceSection/>
      <Footer/>
     </>
   )
