@@ -43,7 +43,7 @@ const FooterData = {
             ]
         }
     ],
-    copyright: "© 2023, Lumia Theme Powered by Bigskups",
+    copyright: "© 2025, Lumia Theme Powered by Bigskups",
     paymentMethods: [
 
         {
