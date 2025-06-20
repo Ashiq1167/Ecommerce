@@ -11,6 +11,7 @@ import { MarqueeComponent } from './Marquee1/Marquee1'
 import Footer from './Footer/FooterData'
 import DualFastMarquee from './MultiCardLoop/MultiCardLoop'
 import ChristmasSale from './ChristmasSale/ChristmasSale'
+import BestChoiceSection from './ProductChoice/BestChoiceSection';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <MultiCardCarousel/>
     <Card/>
     <ChristmasSale/>
+    <BestChoiceSection/>
     <MarqueeComponent/>
     <DualFastMarquee/>
     <Footer/>
