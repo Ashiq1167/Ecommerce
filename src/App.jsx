@@ -1,5 +1,6 @@
 
 import './App.css'
+import React from 'react';
 import Carosel from './carosel/carosel'
 import CategoryGrid from './Category/Category'
 import { MyMarqueeComponent } from './Marquee/Marquee'
@@ -9,9 +10,7 @@ import MultiCardCarousel from './Product/MultiCardCorousal'
 import { MarqueeComponent } from './Marquee1/Marquee1'
 import Footer from './Footer/FooterData'
 import DualFastMarquee from './MultiCardLoop/MultiCardLoop'
-import BestChoiceSection from './ProductChoice/BestChoiceSection'
-
-
+import ChristmasSale from './ChristmasSale/ChristmasSale'
 
 function App() {
   return (
@@ -22,10 +21,10 @@ function App() {
     <Carosel/>
     <MultiCardCarousel/>
     <Card/>
-     <MarqueeComponent/>
-     <DualFastMarquee/>
-     <BestChoiceSection/>
-     <Footer/>
+    <ChristmasSale/>
+    <MarqueeComponent/>
+    <DualFastMarquee/>
+    <Footer/>
     </>
   )
 }
