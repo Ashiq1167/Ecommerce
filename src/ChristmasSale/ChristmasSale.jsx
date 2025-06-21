@@ -56,8 +56,8 @@ const ChristmasSale = () => {
 
       <div className="relative z-10 w-[95%] md:w-[90%] max-w-5xl px-8 py-14 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl text-center animate-fadeIn">
         <div className="overflow-hidden mb-10">
-          <div className="whitespace-nowrap text-4xl md:text-5xl font-extrabold tracking-widest text-white animate-titleScroll">
-            ❄ CHRISTMAS <span className="text-blue-400">SALE</span> ❄ CHRISTMAS <span className="text-blue-400">SALE</span> ❄ CHRISTMAS <span className="text-blue-400">SALE</span> ❄
+          <div className="whitespace-nowrap text-5xl md:text-6xl font-extrabold tracking-widest text-white animate-titleScroll">
+            🎄CHRISTMAS <span className="text-red-700">SALE</span>🎄CHRISTMAS <span className="text-red-700">SALE</span>🎄CHRISTMAS <span className="text-red-700">SALE</span>🎄
           </div>
         </div>
 
@@ -80,10 +80,10 @@ const ChristmasSale = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-6 animate-fadeIn delay-1000">
-          <div className="border border-blue-500 text-blue-400 font-semibold py-3 px-6 rounded-xl bg-white/10 backdrop-blur-md w-full md:w-auto text-center transition duration-300 hover:bg-blue-500 hover:text-white hover:shadow-xl">
+          <div className="border border-red-700 text-red-700 font-semibold py-3 px-6 rounded-xl bg-white/10 backdrop-blur-md w-full md:w-auto text-center transition duration-300 hover:bg-red-700 hover:text-white hover:shadow-xl">
             USE COUPON <span className="font-bold">2025🔖</span>
           </div>
-          <div className="border border-blue-500 text-blue-400 font-semibold py-3 px-6 rounded-xl bg-white/10 backdrop-blur-md w-full md:w-auto text-center transition duration-300 hover:bg-blue-500 hover:text-white hover:shadow-xl">
+          <div className="border border-red-700 text-red-700 font-semibold py-3 px-6 rounded-xl bg-white/10 backdrop-blur-md w-full md:w-auto text-center transition duration-300 hover:bg-red-700 hover:text-white hover:shadow-xl">
             VIEW ALL SALES🎁
           </div>
         </div>

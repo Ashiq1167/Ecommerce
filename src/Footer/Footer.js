@@ -6,8 +6,8 @@ import Foot4 from '../assets//Footer/card.png';
 
 const FooterData = {
     brand: {
-        name: "LUMIA",
-        description: "Worldwide fashion store with wide collection of styles with over 100 international fashion brands."
+        name: "A² Gaming Hub",
+        description: "Worldwide Gaming Accessories store with wide collection of gaming accessories with over 100 international gaming brands."
     },
     socialLinks: [
         { name: "Facebook", icon: "facebook", url: "#" },

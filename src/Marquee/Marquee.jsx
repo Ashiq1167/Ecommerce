@@ -11,9 +11,9 @@ export const MyMarqueeComponent = () => {
         gradient={false}
         direction="left"
       >
-        <div className="flex items-center text-5xl text-white px-5 font-bold"> 
-          <SpeakerIcon className="mr-3" size={32} /> 
-          NO CHANCE FOR DISCOUNT &nbsp;&nbsp;&nbsp;&nbsp;NO CHANCE FOR DISCOUNT &nbsp;&nbsp;&nbsp;&nbsp;NO CHANCE FOR DISCOUNT &nbsp;&nbsp;&nbsp;&nbsp;
+        <div className="flex items-center text-6xl text-white px-6 font-bold"> 
+          <SpeakerIcon className="mr-3" size={62} /> 
+          NO CHANCE FOR <span className="text-red-700">&nbsp;DISCOUNT</span> &nbsp;&nbsp;&nbsp;&nbsp;NO CHANCE FOR <span className="text-red-700">&nbsp;DISCOUNT</span> &nbsp;&nbsp;&nbsp;&nbsp;NO CHANCE FOR <span className="text-red-700">&nbsp;DISCOUNT</span> &nbsp;&nbsp;&nbsp;&nbsp;
         </div>
       </Marquee>
     </div>

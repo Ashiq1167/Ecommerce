@@ -15,7 +15,7 @@ export const MarqueeComponent = () => {
       >
         <div className="flex items-center text-5xl text-white px-5 font-bold"> 
           <SpeakerIcon className="mr-3" size={32} /> 
-         "ஆஃபர் இல்ல, கிளம்பு" &nbsp;&nbsp;&nbsp;&nbsp;"ஆஃபர் இல்ல, கிளம்பு" &nbsp;&nbsp;&nbsp;&nbsp;"ஆஃபர் இல்ல, கிளம்பு" &nbsp;&nbsp;&nbsp;&nbsp;
+         "ஆஃபர் இல்ல, <span className="text-red-700">&nbsp;கிளம்பு"</span> &nbsp;&nbsp;&nbsp;&nbsp;"ஆஃபர் இல்ல, <span className="text-red-700">&nbsp;கிளம்பு"</span> &nbsp;&nbsp;&nbsp;&nbsp;"ஆஃபர் இல்ல, <span className="text-red-700">&nbsp;கிளம்பு</span>" &nbsp;&nbsp;&nbsp;&nbsp;
         </div>
       </Marquee>
     </div>
