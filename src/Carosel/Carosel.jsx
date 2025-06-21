@@ -86,7 +86,7 @@ const Carosel = () => {
                   <h2 className="text-5xl md:text-6xl font-bold mb-4">
                     {product.name.split(' ')[0]} 
                   </h2>
-                  <h3 className="text-4xl md:text-5xl font-semibold mb-6 text-indigo-400">
+                  <h3 className="text-4xl md:text-5xl font-semibold mb-6 text-red-700">
                     {product.name.substring(product.name.indexOf(' ') + 1)}
                   </h3>
                   <ul className="list-disc list-inside text-lg md:text-xl space-y-2 mb-8">
@@ -94,7 +94,7 @@ const Carosel = () => {
                       <li key={i}>{feature}</li>
                     ))}
                   </ul>
-                  <button className="px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-lg transition-colors duration-300">
+                  <button className="px-8 py-3 bg-red-700 hover:bg-red-700 text-white font-semibold rounded-lg shadow-lg transition-colors duration-300">
                     {product.ctaText}
                   </button>
                 </div>

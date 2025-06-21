@@ -33,7 +33,7 @@ const MiniProductCard = ({ product }) => {
           </div>
           <span className="text-gray-400 text-xs">({product.reviews})</span>
         </div>
-        <p className="text-indigo-400 text-lg font-bold">
+        <p className="text-red-700 text-lg font-bold">
           ${product.price}
           {product.originalPrice && (
             <span className="text-gray-500 text-sm line-through ml-2">${product.originalPrice}</span>

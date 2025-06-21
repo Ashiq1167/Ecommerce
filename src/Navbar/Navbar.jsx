@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import lumia from '../assets/logo/image.png'; 
+import lumia from '../assets/logo/image.jpeg'; 
 import {
   Menu,
   X,

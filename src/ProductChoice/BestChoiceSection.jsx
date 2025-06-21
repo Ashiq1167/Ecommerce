@@ -11,7 +11,7 @@ const BestChoiceSection = () => {
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-3xl font-bold text-white">The Best Choice</h2>
-            <a href="#" className="text-indigo-400 hover:text-indigo-300 text-sm font-semibold transition-colors duration-200">
+            <a href="#" className="text-red-700 hover:text-indigo-300 text-sm font-semibold transition-colors duration-200">
               View all
             </a>
           </div>
@@ -34,7 +34,7 @@ const BestChoiceSection = () => {
           <div className="relative z-10 text-white">
             <h3 className="text-5xl font-bold mb-4">MIKRO</h3> 
             <p className="text-xl mb-8">SPECIAL FOR GAMERS</p>
-            <p className="text-4xl font-bold text-indigo-400">Limited offer</p>
+            <p className="text-4xl font-bold text-red-700">Limited offer</p>
            
           </div>
         </div>
